@@ -14,20 +14,13 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx",
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "moduleSuffixes": [
-      ".web",
+      ".node",
       ""
     ],
-    "types": [
-      "vite/client"
-    ]
   },
-  "include": [
-    "src"
-  ],
 }

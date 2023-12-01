@@ -1,0 +1,11 @@
+{
+  "name": "react-rn-library",
+  "type": "module",
+  "scripts": {
+    "node": "node run.js",
+    "edge": "node --conditions=edge run.js"
+  },
+  "devDependencies": {
+    "node-edge-library": "workspace:*"
+  }
+}
