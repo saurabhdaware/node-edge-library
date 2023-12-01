@@ -2,7 +2,8 @@
   "name": "node-edge-library",
   "type": "module",
   "scripts": {
-    "build": "PLATFORM=node vite build && PLATFORM=edge vite build"
+    "build": "PLATFORM=node vite build && PLATFORM=edge vite build",
+    "test": "PLATFORM=node vitest run && PLATFORM=edge vitest run"
   },
   "types": "./dist/types/index.d.ts",
   "exports": {

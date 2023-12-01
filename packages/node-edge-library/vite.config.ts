@@ -1,3 +1,5 @@
+/// <reference types="vitest" />
+
 import { defineConfig } from "vite";
 import { viteCrossPlatform } from "@cross-platform-tools/vite-plugin";
 
