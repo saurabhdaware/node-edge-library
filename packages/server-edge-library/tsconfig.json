@@ -4,6 +4,10 @@
     "types": [
       "vite/client"
     ],
+    "moduleSuffixes": [
+      ".server",
+      ""
+    ],
   },
   "include": ["./src"]
 }

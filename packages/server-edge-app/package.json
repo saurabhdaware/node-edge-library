@@ -1,12 +1,12 @@
 {
-  "name": "node-edge-app",
+  "name": "server-edge-app",
   "type": "module",
   "scripts": {
-    "node": "node run.js",
+    "server": "node --conditions=server run.js",
     "edge": "node --conditions=edge run.js",
     "test:edge": "VITEST_CONDITIONS=edge vitest run"
   },
   "devDependencies": {
-    "node-edge-library": "workspace:*"
+    "server-edge-library": "workspace:*"
   }
 }
