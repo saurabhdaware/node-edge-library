@@ -13,7 +13,7 @@
     "default": "./dist/server/production/index.js"
   },
   "devDependencies": {
-    "@cross-platform-tools/vite-plugin": "^0.1.2",
+    "@cross-platform-tools/vite-plugin": "^0.1.4",
     "vite": "^5"
   }
 }

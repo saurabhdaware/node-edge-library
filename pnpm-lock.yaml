@@ -24,8 +24,8 @@ importers:
   packages/server-edge-library:
     devDependencies:
       '@cross-platform-tools/vite-plugin':
-        specifier: ^0.1.2
-        version: 0.1.2(@types/node@20.10.1)(typescript@5.3.2)(vite@5.0.4)
+        specifier: ^0.1.4
+        version: 0.1.4(@types/node@20.10.1)(typescript@5.3.2)(vite@5.0.4)
       vite:
         specifier: ^5
         version: 5.0.4(@types/node@20.10.1)
@@ -59,8 +59,8 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@cross-platform-tools/vite-plugin@0.1.2(@types/node@20.10.1)(typescript@5.3.2)(vite@5.0.4):
-    resolution: {integrity: sha512-MD4JHhAkf4Tp7op7amCpMXV8jFO+utixP4k5DZfU8twiQ65Zt2ubHVmnAhl3S0XcezIaqfzBAwcxaCzSiyngiw==}
+  /@cross-platform-tools/vite-plugin@0.1.4(@types/node@20.10.1)(typescript@5.3.2)(vite@5.0.4):
+    resolution: {integrity: sha512-k0BjhBU/zfccm7o6WXFOweP3aLKSZry+wQ2uUUz7PsPTArwEqxS7P4bDs9eArLyfCrNjRWNxIspaJ3NRPVPiFA==}
     peerDependencies:
       vite: ^4 || ^5
     dependencies:
