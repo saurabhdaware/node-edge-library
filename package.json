@@ -8,8 +8,8 @@
     "vitest": "^0.34.6"
   },
   "scripts": {
-    "postinstall": "pnpm --filter node-edge-library build",
-    "start": "pnpm --filter node-edge-app node && pnpm --filter node-edge-app edge"
+    "postinstall": "pnpm --filter server-edge-library build",
+    "start": "pnpm --filter server-edge-app run server && pnpm --filter server-edge-app run edge"
   },
   "keywords": [],
   "author": "",
