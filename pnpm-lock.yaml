@@ -15,13 +15,13 @@ importers:
         specifier: ^0.34.6
         version: 0.34.6
 
-  packages/node-edge-app:
+  packages/server-edge-app:
     devDependencies:
-      node-edge-library:
+      server-edge-library:
         specifier: workspace:*
-        version: link:../node-edge-library
+        version: link:../server-edge-library
 
-  packages/node-edge-library:
+  packages/server-edge-library:
     devDependencies:
       '@cross-platform-tools/vite-plugin':
         specifier: ^0.1.2
